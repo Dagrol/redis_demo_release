@@ -1,0 +1,6 @@
+---
+name: cf-demo-redis-broker
+templates:
+  ctl.erb: bin/ctl
+
+packages:

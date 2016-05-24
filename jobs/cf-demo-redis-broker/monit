@@ -1,0 +1,5 @@
+check process cf-demo-redis-broker
+  with pidfile /var/vcap/sys/run/cf-demo-redis-broker/pid
+  start program "/var/vcap/jobs/cf-demo-redis-broker/bin/ctl start"
+  stop program "/var/vcap/jobs/cf-demo-redis-broker/bin/ctl stop"
+  group vcap
